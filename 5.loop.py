@@ -1,3 +1,5 @@
+
+#////////////////////////////////////////////////////////////////////////////
 # DevOps වලදී අපි හැමදාම කරන දෙයක්.
 # Install කරන්න ඕන packages ලැයිස්තුවක්.
 packages_to_install = ["nginx", "docker", "git", "vim"]
@@ -17,3 +19,12 @@ for package in packages_to_install:
     print(f"Running command: sudo apt-get install {package}")
 
 print("--- All packages installed ---")
+
+
+
+#////////////////////////////////////////////////////////////////////////////
+## 0, 1, 2, 3 කියන ඉලක්කම් ටික හරහා loop කරනවා (same as -> for (i=0  i<4  i++))
+for i in range(4):
+    print(f"Loop number {i}")
+
+    
