@@ -15,9 +15,10 @@ print("Server configuration:", server_config)
 print("ram_gb:", server_config["ram_gb"])
 
 # Get and print value of 'is_virtual' key
-print("is_virtual:", server_config["is_virtual"])
+print1 = print("is_virtual:", server_config["is_virtual"])
 
-
+vm = server_config["is_virtual"]
+print("vm is :", vm)
 
 
 # Store the IP address in a variable and print it
